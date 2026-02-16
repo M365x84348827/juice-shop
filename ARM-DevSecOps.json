@@ -94,12 +94,12 @@
       "name": "[parameters('appServicePlanName')]",
       "location": "[parameters('location')]",
       "sku": {
-      "name": "B1",
-      "tier": "Basic",
-      "size": "B1",
-      "family": "B",
-      "capacity": 1
-      },
+    "name": "P1mv4",
+    "tier": "PremiumMV4",
+    "size": "P1mv4",
+    "family": "Pmv4",
+    "capacity": 1
+},
       "kind": "linux",
       "properties": {
         "perSiteScaling": false,
@@ -341,6 +341,7 @@
     }
   }
 }
+
 
 
 
